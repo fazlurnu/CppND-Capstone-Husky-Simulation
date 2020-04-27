@@ -7,8 +7,10 @@ The idea of this project is from a course at [ETH Zurich](https://rsl.ethz.ch/ed
 1. Readme (All Rubric Points)
 2. Compiling and Testing (All Rubric Points)
 3. Loops, Functions, I/O:
-   a. 
-   b. 
+   a. A variety of control structures are used in the project (see [HuskyHighlevelController.cpp](https://github.com/fazlurnu/CppND-Capstone-Husky-Simulation/blob/master/src/husky_highlevel_controller_node.cpp) line 60)
+   b. The project code is clearly organized into functions (see [HuskyHighlevelController.cpp](https://github.com/fazlurnu/CppND-Capstone-Husky-Simulation/blob/master/src/husky_highlevel_controller_node.cpp))
+   c. The project reads data from an external file (see [HuskyHighlevelController.cpp](https://github.com/fazlurnu/CppND-Capstone-Husky-Simulation/blob/master/src/husky_highlevel_controller_node.cpp) line 27). Note: The use of param file is defined in [husky_single_pillar.launch](https://github.com/fazlurnu/CppND-Capstone-Husky-Simulation/blob/master/launch/husky_single_pillar.launch) line 19. The param file is [here](https://github.com/fazlurnu/CppND-Capstone-Husky-Simulation/tree/master/param)
+   d. 
 
 ## Dependencies for Running Locally
 * cmake >= 2.8

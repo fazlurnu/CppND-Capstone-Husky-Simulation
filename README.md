@@ -55,7 +55,7 @@ If you just installed ROS from apt on Ubuntu then you will have setup.*sh files 
 
 ### Build the project
 
-Note: Make sure you are using python2, check it by typing `python --version`.
+Note: Make sure you are using python2, check it by typing `python --version`. On Udacity virtual machine, build the project from the terminal 'Terminator', do not use Visual Studio Code.
 
 1. Open src: `cd ~/catkin_ws/src`
 2. Clone this repo

@@ -45,8 +45,21 @@ For the simulation, a Husky package is required [Click here for the installation
 
 ## Basic Build Instructions
 
-If you just installed ROS from apt on Ubuntu then you will have setup.*sh files in '/opt/ros/<distro>/', and you could source them like so: `source /opt/ros/kinetic/setup.bash`
+If you just installed ROS from apt on Ubuntu then you will have setup.*sh files in '/opt/ros/<distro>/', and you could source them like so: `source /opt/ros/<distro>/setup.bash`
   
-1. Set your ROS workspace, `mkdir catkin_ws`
-2. Open your ROS workspace, `cd catkin_ws`
-3. 
+### Setup ROS workspace
+
+1. Set your ROS workspace: `mkdir -p ~/catkin_ws/src`
+2. Open your ROS workspace: `cd ~/catkin_ws/`
+3. Initialize it with a hidden marker file: `catkin init`
+
+### Build the project
+
+Note: Make sure you are using python2, check it by typing `python --version`.
+
+1. Open src: `cd ~/catkin_ws/src`
+2. Clone this repo
+3. Go back to workspace: `cd ~/catkin_ws`
+3. Build the project: `catkin build`
+4. Update your environment: `source devel/setup.bash`
+5. Launch the project: `roslaunch husky_highlevel_controller husky_single_pillar.launch`

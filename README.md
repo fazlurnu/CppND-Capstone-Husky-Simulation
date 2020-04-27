@@ -15,7 +15,7 @@ A simulation of Husky using ROS and Gazebo for Udacity C++ Nanodegree Capstone P
 * catkin_tools = latest version
   * Linux: [Click here for installation instructions](https://catkin-tools.readthedocs.io/en/latest/installing.html)
 * python2
-  * There is a compatibility issue with python3, so one has to use python2 to run this project. To install, on your terminal, type sudo apt install python2
+  * There is a compatibility issue with python3, so one has to use python2 to run this project. To install, on your terminal, type 'sudo apt install python2'
   
 ## Ubuntu - setup ROS & Gazebo:
 This project has been tested on ROS Kinetic and Gazebo 7.0 on Ubuntu 16.04. [Click here for installation instructions](http://wiki.ros.org/kinetic/Installation/Ubuntu). Select the Desktop-Full Install Repository.

@@ -67,3 +67,7 @@ Note: Make sure you are using python2, check it by typing `python --version`. On
 If you found an error in the rospkg, try this line:
 `sudo apt-get -y install python-rospkg`
 `export PYTHONPATH=$PYTHONPATH:/usr/lib/python2.7/dist-packages`
+
+To temporarily use python2 environment, try this line:
+`virtualenv -p /usr/bin/python2.7 --distribute temp-python`
+`source temp-python/bin/activate`

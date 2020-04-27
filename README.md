@@ -5,12 +5,22 @@ The idea of this project is from a course at [ETH Zurich](https://rsl.ethz.ch/ed
 
 ## Rubric Points
 * Readme (All Rubric Points)
+
 * Compiling and Testing (All Rubric Points)
+
 * Loops, Functions, I/O:
    * A variety of control structures are used in the project (see [HuskyHighlevelController.cpp](https://github.com/fazlurnu/CppND-Capstone-Husky-Simulation/blob/master/src/husky_highlevel_controller_node.cpp) line 60)
    * The project code is clearly organized into functions (see [HuskyHighlevelController.cpp](https://github.com/fazlurnu/CppND-Capstone-Husky-Simulation/blob/master/src/husky_highlevel_controller_node.cpp))
-   * The project reads data from an external file (see [HuskyHighlevelController.cpp](https://github.com/fazlurnu/CppND-Capstone-Husky-Simulation/blob/master/src/husky_highlevel_controller_node.cpp) line 27).
-   Note: The use of param file is defined in [husky_single_pillar.launch](https://github.com/fazlurnu/CppND-Capstone-Husky-Simulation/blob/master/launch/husky_single_pillar.launch) line 19. The param file is [here](https://github.com/fazlurnu/CppND-Capstone-Husky-Simulation/tree/master/param) 
+   * The project reads data from an external file (see [HuskyHighlevelController.cpp](https://github.com/fazlurnu/CppND-Capstone-Husky-Simulation/blob/master/src/husky_highlevel_controller_node.cpp) line 27). The use of param file is defined in [husky_single_pillar.launch](https://github.com/fazlurnu/CppND-Capstone-Husky-Simulation/blob/master/launch/husky_single_pillar.launch) line 19. The param file is [here](https://github.com/fazlurnu/CppND-Capstone-Husky-Simulation/tree/master/param) 
+
+* Object Oriented Programming:
+    * The project code is organized into classes with class attributes hold the data, and class methods to perform task (see [HuskyHighlevelController.hpp](https://github.com/fazlurnu/CppND-Capstone-Husky-Simulation/blob/master/include/husky_highlevel_controller/HuskyHighlevelController.hpp)
+    * All class data members are explicitly specified as public, protected, or priveate (see [HuskyHighlevelController.hpp](https://github.com/fazlurnu/CppND-Capstone-Husky-Simulation/blob/master/include/husky_highlevel_controller/HuskyHighlevelController.hpp)
+    * All class members that are set to argument values are initialized through member initialization lists (see [HuskyHighlevelController.cpp](https://github.com/fazlurnu/CppND-Capstone-Husky-Simulation/blob/master/src/husky_highlevel_controller_node.cpp) line 6)
+
+* Memory Management:
+    * At least two functions use pass-by-reference in the project code ((https://github.com/fazlurnu/CppND-Capstone-Husky-Simulation/blob/master/src/husky_highlevel_controller_node.cpp) line 5 and line 49)
+    
 
 ## Dependencies for Running Locally
 * cmake >= 2.8
@@ -39,4 +49,3 @@ For the simulation, a Husky package is required [Click here for the installation
 2. Make a build directory in the top level directory: `mkdir build && cd build`
 3. Compile: `cmake .. && make`
 4. Run it: `./SnakeGame`.
-

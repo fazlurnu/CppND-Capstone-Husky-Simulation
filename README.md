@@ -65,9 +65,9 @@ Note: Make sure you are using python2, check it by typing `python --version`. On
 5. Launch the project: `roslaunch husky_highlevel_controller husky_single_pillar.launch`
 
 If you found an error in the rospkg, try this line:
-`sudo apt-get -y install python-rospkg`
-`export PYTHONPATH=$PYTHONPATH:/usr/lib/python2.7/dist-packages`
+1. `sudo apt-get -y install python-rospkg`
+2. `export PYTHONPATH=$PYTHONPATH:/usr/lib/python2.7/dist-packages`
 
 To temporarily use python2 environment, try this line:
-`virtualenv -p /usr/bin/python2.7 --distribute temp-python`
-`source temp-python/bin/activate`
+1. `virtualenv -p /usr/bin/python2.7 --distribute temp-python`
+2. `source temp-python/bin/activate`

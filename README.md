@@ -63,3 +63,7 @@ Note: Make sure you are using python2, check it by typing `python --version`. On
 3. Build the project: `catkin build`
 4. Update your environment: `source devel/setup.bash`
 5. Launch the project: `roslaunch husky_highlevel_controller husky_single_pillar.launch`
+
+If you found an error in the rospkg, try this line:
+`sudo apt-get -y install python-rospkg`
+`export PYTHONPATH=$PYTHONPATH:/usr/lib/python2.7/dist-packages`

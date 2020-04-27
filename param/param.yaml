@@ -1,0 +1,6 @@
+scan_subscriber_queue_size : 1
+scan_subscriber_topic_name : /scan
+twist_publisher_queue_size : 10
+twist_publisher_topic_name : /cmd_vel
+command_angular_kp : -1.0
+command_linear_x : 1

@@ -45,7 +45,8 @@ For the simulation, a Husky package is required [Click here for the installation
 
 ## Basic Build Instructions
 
-1. Clone this repo.
-2. Make a build directory in the top level directory: `mkdir build && cd build`
-3. Compile: `cmake .. && make`
-4. Run it: `./SnakeGame`.
+If you just installed ROS from apt on Ubuntu then you will have setup.*sh files in '/opt/ros/<distro>/', and you could source them like so: `source /opt/ros/kinetic/setup.bash`
+  
+1. Set your ROS workspace, `mkdir catkin_ws`
+2. Open your ROS workspace, `cd catkin_ws`
+3. 

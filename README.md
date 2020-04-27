@@ -4,13 +4,12 @@ A simulation of Husky using ROS and Gazebo for Udacity C++ Nanodegree Capstone P
 The idea of this project is from a course at [ETH Zurich](https://rsl.ethz.ch/education-students/lectures/ros.html), exercise 3. The goal is to have a closed-loop control of the Husky. Husky reads position of a pillar using lidar and drives towards the pillar automatically. More detail on the exercise can be found [here](https://ethz.ch/content/dam/ethz/special-interest/mavt/robotics-n-intelligent-systems/rsl-dam/ROS2020/Exercise%20Session%203.pdf). One can also have the position of Husky and pillar visualized in Rviz.
 
 ## Rubric Points
-1. Readme (All Rubric Points)
-2. Compiling and Testing (All Rubric Points)
-3. Loops, Functions, I/O:
-   a. A variety of control structures are used in the project (see [HuskyHighlevelController.cpp](https://github.com/fazlurnu/CppND-Capstone-Husky-Simulation/blob/master/src/husky_highlevel_controller_node.cpp) line 60)
-   b. The project code is clearly organized into functions (see [HuskyHighlevelController.cpp](https://github.com/fazlurnu/CppND-Capstone-Husky-Simulation/blob/master/src/husky_highlevel_controller_node.cpp))
-   c. The project reads data from an external file (see [HuskyHighlevelController.cpp](https://github.com/fazlurnu/CppND-Capstone-Husky-Simulation/blob/master/src/husky_highlevel_controller_node.cpp) line 27). Note: The use of param file is defined in [husky_single_pillar.launch](https://github.com/fazlurnu/CppND-Capstone-Husky-Simulation/blob/master/launch/husky_single_pillar.launch) line 19. The param file is [here](https://github.com/fazlurnu/CppND-Capstone-Husky-Simulation/tree/master/param)
-   d. 
+* Readme (All Rubric Points)
+* Compiling and Testing (All Rubric Points)
+* Loops, Functions, I/O:
+   * A variety of control structures are used in the project (see [HuskyHighlevelController.cpp](https://github.com/fazlurnu/CppND-Capstone-Husky-Simulation/blob/master/src/husky_highlevel_controller_node.cpp) line 60)
+   * The project code is clearly organized into functions (see [HuskyHighlevelController.cpp](https://github.com/fazlurnu/CppND-Capstone-Husky-Simulation/blob/master/src/husky_highlevel_controller_node.cpp))
+   * The project reads data from an external file (see [HuskyHighlevelController.cpp](https://github.com/fazlurnu/CppND-Capstone-Husky-Simulation/blob/master/src/husky_highlevel_controller_node.cpp) line 27). Note: The use of param file is defined in [husky_single_pillar.launch](https://github.com/fazlurnu/CppND-Capstone-Husky-Simulation/blob/master/launch/husky_single_pillar.launch) line 19. The param file is [here](https://github.com/fazlurnu/CppND-Capstone-Husky-Simulation/tree/master/param) 
 
 ## Dependencies for Running Locally
 * cmake >= 2.8

@@ -1,7 +1,14 @@
 # CppND-Capstone-Husky-Simulation
 A simulation of Husky using ROS and Gazebo for Udacity C++ Nanodegree Capstone Project. The project I choose is a ROS Node simulation in Gazebo. This project is interesting for me because I learn C++ to advance my skill in robotics.
 
-The idea of this project is from a course at ETH Zurich(https://rsl.ethz.ch/education-students/lectures/ros.html), exercise 3. The goal is to have a closed-loop control of the Husky. Husky reads position of a pillar using lidar and drives towards the pillar automatically. More detail on the exercise can be found here(https://ethz.ch/content/dam/ethz/special-interest/mavt/robotics-n-intelligent-systems/rsl-dam/ROS2020/Exercise%20Session%203.pdf)
+The idea of this project is from a course at [ETH Zurich](https://rsl.ethz.ch/education-students/lectures/ros.html), exercise 3. The goal is to have a closed-loop control of the Husky. Husky reads position of a pillar using lidar and drives towards the pillar automatically. More detail on the exercise can be found [here](https://ethz.ch/content/dam/ethz/special-interest/mavt/robotics-n-intelligent-systems/rsl-dam/ROS2020/Exercise%20Session%203.pdf). One can also have the position of Husky and pillar visualized in Rviz.
+
+## Rubric Points
+1. Readme (All Rubric Points)
+2. Compiling and Testing (All Rubric Points)
+3. Loops, Functions, I/O:
+   a. 
+   b. 
 
 ## Dependencies for Running Locally
 * cmake >= 2.8

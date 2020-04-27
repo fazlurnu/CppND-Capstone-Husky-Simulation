@@ -14,12 +14,9 @@ A simulation of Husky using ROS and Gazebo for Udacity C++ Nanodegree Capstone P
   * Windows: recommend using [MinGW](http://www.mingw.org/)
 * catkin_tools = latest version
   * Linux: [Click here for installation instructions](https://catkin-tools.readthedocs.io/en/latest/installing.html)
-* catkin_tools = latest version
-  * Linux: [Click here for installation instructions](https://catkin-tools.readthedocs.io/en/latest/installing.html)
   
 ## Ubuntu - setup ROS & Gazebo:
 This project has been tested on ROS Kinetic and Gazebo 7.0 on Ubuntu 16.04. [Click here for installation instructions](http://wiki.ros.org/kinetic/Installation/Ubuntu). Select the Desktop-Full Install Repository.
-
 
 ## Basic Build Instructions
 
